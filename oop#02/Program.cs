@@ -22,7 +22,22 @@ namespace oop_02
 
             #region Question02
 
+            //Point point01 =new Point();
+            //Point point02 =new Point();
 
+            //Console.WriteLine("enter the x axis of the first point");
+            //point01.X = Convert.ToDouble(Console.ReadLine());
+
+            //Console.WriteLine("enter the y axis of the first point");
+            //point01.Y = Convert.ToDouble(Console.ReadLine());
+
+            //Console.WriteLine("enter the x axis of the second point");
+            //point02.X = Convert.ToDouble(Console.ReadLine());
+
+            //Console.WriteLine("enter the y axis of the second point");
+            //point02.Y = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine($"The distance between the 2 points is: {Point.calculateDistance(point02, point01)}");
+            
             #endregion
         }
     }
