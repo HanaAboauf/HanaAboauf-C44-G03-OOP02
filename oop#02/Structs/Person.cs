@@ -18,8 +18,19 @@ namespace oop_02.Structs
         #region Methods
         public override string ToString()
         {
-            return $"Id: {Age}, Name: {Name}";
+            return $"Age: {Age}, Name: {Name}";
         } 
+
+        public static Person GetOldestPerson(Person a, Person b, Person c)
+        {
+            if (a.Age >= b.Age && a.Age >= c.Age)
+                return a;
+            else if (b.Age >= a.Age && b.Age >= c.Age)
+                return b;
+            else
+                return c;
+
+        }
         #endregion
 
     }

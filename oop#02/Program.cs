@@ -37,7 +37,33 @@ namespace oop_02
             //Console.WriteLine("enter the y axis of the second point");
             //point02.Y = Convert.ToDouble(Console.ReadLine());
             //Console.WriteLine($"The distance between the 2 points is: {Point.calculateDistance(point02, point01)}");
-            
+
+            #endregion
+
+            #region Question03
+            Person person01 = new Person();
+            Console.WriteLine("ent first person name");
+            person01.Name = Console.ReadLine()!;
+            Console.WriteLine("ent first person age");
+            person01.Age=Convert.ToInt32(Console.ReadLine());
+
+            Person person02 = new Person();
+            Console.WriteLine("ent second person name");
+            person02.Name = Console.ReadLine()!;
+            Console.WriteLine("ent second person age");
+            person02.Age = Convert.ToInt32(Console.ReadLine());
+
+            Person person03 = new Person();
+            Console.WriteLine("ent third person name");
+            person03.Name = Console.ReadLine()!;
+            Console.WriteLine("ent third person age");
+            person03.Age = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine($"The oldest person is: \n {Person.GetOldestPerson(person01,person02,person03)}");
+
+
+
+
             #endregion
         }
     }
